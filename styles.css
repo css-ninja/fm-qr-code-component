@@ -47,7 +47,7 @@ body {
   padding: 16px 16px 0;
 }
 
-.qr-code-comp .card--content h2 {
+.qr-code-comp .card--content h1 {
   color: var(--color-slate-900);
   font-size: 22px;
   font-style: normal;
