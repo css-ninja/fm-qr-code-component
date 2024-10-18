@@ -1,0 +1,66 @@
+:root {
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-slate-900: #1F314F;
+  --color-slate-500: #68778D;
+  --color-slate-300: #D5E1EF;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 15px;
+  font-weight: 500;
+  font-style: normal;
+  background-color: var(--color-slate-300);
+}
+
+.qr-code-comp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.qr-code-comp img {
+  max-width: 100%;
+  height: auto;
+}
+
+.qr-code-comp .card {
+ max-width: 320px;
+ max-height: 500px;
+ height: 100vh;
+ border-radius: 20px;
+ background-color: var(--color-white);
+ padding: 16px;
+ box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 0.05);
+}
+
+.qr-code-comp .card--image {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.qr-code-comp .card--content {
+  padding: 16px 16px 0;
+}
+
+.qr-code-comp .card--content h2 {
+  color: var(--color-slate-900);
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  margin: 0 0 16px;
+}
+
+.qr-code-comp .card--content p {
+  color: var(--color-slate-500);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+}
